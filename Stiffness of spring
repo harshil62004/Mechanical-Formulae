@@ -1,0 +1,9 @@
+print(f"Stiffness of Spring 'K' Calculator ")
+print(f"Formula is k=G × d^4/8 × N × D^3")
+
+G = float(input("Modulus of Rigidity of Material"))
+d = float(input("Wire Diameter"))
+D = float(input("Mean Diameter of Spring"))
+N = float(input("Number of Turns"))
+
+print("Stiffness of Spring is",((float(G)*float(d**4))/(8*float(D**3)*float(N))))
